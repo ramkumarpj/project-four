@@ -8,7 +8,9 @@ Team AEJJ is seeking to discover relationships between U.S. Gross Domestic Produ
 
 ## Setting up Agile Project
 
-Assigned Agile workflow using github projects.  We set up the flow of Project Ideation, Project Poposal, Data Fetching, Data Analysis, Building the ML Model, Testing, Documenting and Presentation. These all include Roles, Communication, Collaboration, Milestones, and tracking when and where we are each day for the entire project to ensure that the project is completed.
+Assigned Agile workflow using github projects.  We set up the flow of Project Ideation, Project Poposal, Data Fetching, Data Analysis, Building the ML Model, Testing, Documenting and Presentation. These all include Roles, Communication, Collaboration, Milestones, and tracking when and where we are each day for the entire project to ensure that the project is completed.  Workflow can be found here:
+
+https://github.com/users/scottarterbury/projects/3
 
 ## Data Sourcing
 
