@@ -9,5 +9,7 @@ Team AEJJ is seeking to discover relationships between U.S. Gross Domestic Produ
 ## Data Sourcing
 
 United States Department of Economics Government Site. Bureau of Economic Analysis (BEA).
+
 National Income and Product Accounts Metadata CSV files download. We used the GDP as the main source as it has shown in the past that it has the strongest indicator.
+
 The dataset contained 100 years worth of data.  We filtered the data to include the top 4 indicicators of a recession in the GDP. Some of the data was mising until 1959 so we started there.
