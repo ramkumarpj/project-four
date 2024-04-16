@@ -12,4 +12,4 @@ United States Department of Economics Government Site. Bureau of Economic Analys
 
 National Income and Product Accounts Metadata CSV files download. We used the GDP as the main source as it has shown in the past that it has the strongest indicator.
 
-The dataset contained 100 years worth of data.  We filtered the data to include the top 4 indicicators of a recession in the GDP. Some of the data was mising until 1959 so we started there.  Using an anaylsis of indicators, we weighed 4 parts of the GDP makeup and analyized that.
+The dataset contained 100 years worth of data.  We filtered the data to include the top 4 indicicators of a recession in the GDP. Some of the data was mising until 1959 so we started there.  Using an anaylsis of indicators, we weighed 4 parts of the GDP makeup and analyized that.  The more recent the data, the largest portions that makes up the total GDP, the higher the weight.
