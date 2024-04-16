@@ -19,3 +19,5 @@ The more recent the data, the largest portions that makes up the total GDP, the 
 We looked at the quarterly data of the past 20 years to breakdown and filter the data using Python and creating easy to read visualizations.
 
 The conclusion of this data showed the top 4 of the indicators is Personal consumption expenditures, Gross private domestic investment, Net exports of goods and services, Government consumption expenditures and gross investment.
+
+To further breakdown the data collection, we show that the Personal Consumption Expenditures (PCE) includes Goods and Services. The GDP contains Gross Private Domestic Investments for Nonresidential and Residential. The Government consumption expenditures and gross investment includes net exports and net imports and the Defense and Nondefense.
