@@ -6,6 +6,10 @@ For Project 4, you will work with your group to solve, analyze, or visualize a p
 
 Team AEJJ is seeking to discover relationships between U.S. Gross Domestic Product (GDP) and overall economic health. Can machine learning predict a recession, with better than 75% accuracy, by analyzing historical GDP data?
 
+## Setting up Agile Project
+
+Assigned Agile workflow using github projects.  We set up the flow of Project Ideation, Project Poposal, Data Fetching, Data Analysis, Building the ML Model, Testing, Documenting and Presentation. These all include Roles, Communication, Collaboration, Milestones, and tracking when and where we are each day for the entire project to ensure that the project is completed.
+
 ## Data Sourcing
 
 United States Department of Economics Government Site. Bureau of Economic Analysis (BEA).
