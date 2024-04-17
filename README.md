@@ -1,6 +1,6 @@
 ## Project Four
 
-For Project 4, you will work with your group to solve, analyze, or visualize a problem using machine learning (ML) with the other technologies we’ve learned. Prepare a 15-minute data deep dive or infrastructure review that shows machine learning in the context of what we’ve already learned.
+For Project 4, you will work with your group to solve, analyze, or visualize a problem using machine learning models (MLM) with the other technologies we’ve learned. Prepare a 15-minute data deep dive or infrastructure review that shows machine learning in the context of what we’ve already learned.
 
 ## Background
 
@@ -12,7 +12,7 @@ Assigned Agile workflow using github projects.  We set up the flow of Project Id
 
 https://github.com/users/scottarterbury/projects/3
 
-## Data Sourcing
+## Data Sourcing and Analysis
 
 United States Department of Economics Government Site. Bureau of Economic Analysis (BEA).
 
@@ -29,3 +29,11 @@ The conclusion of this data showed the top 4 of the indicators is Personal consu
 To further breakdown the data collection, we show that the Personal Consumption Expenditures (PCE) includes Goods and Services. The GDP contains Gross Private Domestic Investments for Nonresidential and Residential. The Government consumption expenditures and gross investment includes net exports and net imports and the Defense and Nondefense.
 
 ## Data Model Implementation
+
+The generally accepted definition of a recession in the U.S., according to Forbes, is when GDP shrinks in two consecutive quarters. A recession involves a significant decline in economic activity that is spread across the economy and lasts more than a few months. Comparing forecasts with their historical antecedents can produce a measure of the probability of a future recession. Taking into account these definitions, we needed to decide on what Machine Learning technology to use.  Machine Learning algorithms are often drawn from statistics, calculus, and linear algebra. 
+
+Using Python, we started with Linear Regression from Scikit-learn. The data we obtained was used to train the model, proccessed using standard scalar, to find the metrics and test we then used the mean squared error (MSE).  This allowed us to define the features to use for the prediction, define the target variable, create and fit the model, obtain the data and then test.
+
+The next Machine Learning Model we used is Support Vector Machines (SVR) from Scikit-learn. This MLM finds the hyperplane that maximally separates the points of one class from those of the other class. It finds the hyperplane that has the largest margin between the points of the two classes. In Python, we inputed our previously filtered data for training and defined the target variable we wanted answered. We created the SVR pipeline in a scalar format. Afterwards we fit the model and then tested the model with an 0.85 accuracy.
+
+We then tested the Ensemble model learning. 
