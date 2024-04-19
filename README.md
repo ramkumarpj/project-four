@@ -6,7 +6,7 @@ For Project 4, you will work with your group to solve, analyze, or visualize a p
 
 Team AEJJ is seeking to discover relationships between U.S. Gross Domestic Product (GDP) and overall economic health. Can machine learning predict a recession, with better than 75% accuracy, by analyzing historical GDP data?
 
-![Recessions](https://github.com/ramkumarpj/project-four/blob/4d1253bbeec05d80478eafca75a95e91326b63f2/images/economic_recessions_US_1959.png))
+![Recessions](https://github.com/ramkumarpj/project-four/blob/4d1253bbeec05d80478eafca75a95e91326b63f2/images/economic_recessions_US_1959.png)
 
 
 ## Setting up Agile Project
