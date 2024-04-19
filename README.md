@@ -10,13 +10,13 @@ Team AEJJ is seeking to discover relationships between U.S. Gross Domestic Produ
 
 Assigned Agile workflow using github projects.  We set up the flow of Project Ideation, Project Poposal, Data Fetching, Data Analysis, Building the ML Model, Testing, Documenting and Presentation. These all include Roles, Communication, Collaboration, Milestones, and tracking when and where we are each day for the entire project to ensure that the project is completed.  Workflow can be found here:
 
-https://github.com/users/scottarterbury/projects/3
+https://github.com/users/ramkumarpj/projects/3
 
 ## Data Sourcing and Analysis
 
 United States Department of Economics Government Site. Bureau of Economic Analysis (BEA).
 
-National Income and Product Accounts Metadata CSV files download. We used the GDP as the main source as it has shown in the past that it has the strongest indicator.
+National Income and Product Accounts Metadata CSV files download. We used the GDP as the main source as it has shown in the past that it has the strongest indicator.  We also included the Treasury GDP growth rate and Long-Term and short term interest rates.
 
 The dataset contained 100 years worth of data.  We filtered the data to include the top 4 indicicators of a recession in the GDP. Some of the data was mising until 1959 so we started there.  Using an anaylsis of top indicators, we weighed 4 parts of the GDP makeup and analyized that.  
 
