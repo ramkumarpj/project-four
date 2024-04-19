@@ -32,7 +32,7 @@ To further breakdown the data collection, we show that the Personal Consumption 
 
 The generally accepted definition of a recession in the U.S., according to Forbes, is when GDP shrinks in two consecutive quarters. A recession involves a significant decline in economic activity that is spread across the economy and lasts more than a few months. Comparing forecasts with their historical antecedents can produce a measure of the probability of a future recession. Taking into account these definitions, we needed to decide on what Machine Learning technology to use.  Machine Learning algorithms are often drawn from statistics, calculus, and linear algebra. 
 
-Using Python, we started with Linear Regression from Scikit-learn. The data we obtained was used to train the model, proccessed using standard scalar, to find the metrics and test we then used the mean squared error (MSE).  This allowed us to define the features to use for the prediction, define the target variable, create and fit the model, obtain the data and then test.
+Using Python, we started with Logistic Regression from Scikit-learn. The data we obtained was used to train the model, proccessed using standard scalar, to find the metrics and test we then used the mean squared error (MSE).  This allowed us to define the features to use for the prediction, define the target variable, create and fit the model, obtain the data and then test.
 
 The next Machine Learning Model we used is Support Vector Machines (SVR) from Scikit-learn. This MLM finds the hyperplane that maximally separates the points of one class from those of the other class. It finds the hyperplane that has the largest margin between the points of the two classes. In Python, we inputed our previously filtered data for training and defined the target variable we wanted answered. We created the SVR pipeline in a scalar format. Afterwards we fit the model and then tested the model with an 0.85 accuracy.
 
@@ -41,6 +41,8 @@ We then tested Ensemble model learning. This technique combines several base mac
 ## Data Model Optimization
 
 As we analyzed the approach we took to find the best way to predict a recession, we found that using multiple ways to optimize the MLM was to try different approaches after discussing which model would work the best.  We created our code using Python and used multiple machine learning models to see the results. To test the accuracy of the model we used MSE.  Linear regression did give us a suitable result but we had to find different methods to train our model and show that it was working correctly in each dataframe.  SVR would give a similar result that was slightly more accurate according to our test. The team had to find ways work with the code to transform the data to be usable for a Time Series analysis. Using the data from our source, we obtained data points for each month and year. In each analysis, we created visualizations in order to create an easier understanding of our results.
+
+After researching the Federal Reserve data and future predictions, we came to the conclusion that the Logistic Regression Model to be the most accurate way to determine an upcoming recssion.  Our target variable is future recession within 6-24 months.  
 
 ## Conclusion
 
