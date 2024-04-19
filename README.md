@@ -36,7 +36,7 @@ Using Python, we started with Linear Regression from Scikit-learn. The data we o
 
 The next Machine Learning Model we used is Support Vector Machines (SVR) from Scikit-learn. This MLM finds the hyperplane that maximally separates the points of one class from those of the other class. It finds the hyperplane that has the largest margin between the points of the two classes. In Python, we inputed our previously filtered data for training and defined the target variable we wanted answered. We created the SVR pipeline in a scalar format. Afterwards we fit the model and then tested the model with an 0.85 accuracy.
 
-We then tested Ensemble model learning. This technique combines several base machine learning models in order to produce one optimal predictive model. We imported the previous data and MLMs and added XGBoost, AdaBoost, Gradiant Boosting and Random Forest. We spit the data into training and training sets, defined and trained the models, and outputted the prediction. We then tested the prediction using MSE.  Afterwards we used GDP growth rate instead of overall GDP and tested using MSE.
+We then tested Ensemble model learning. This technique combines several base machine learning models in order to produce one optimal predictive model. We imported the previous data and used Linear Regression,  XGBoost, and Random Forest. We split the data into training and training sets, defined and trained the models, and outputted the prediction. We then tested the prediction using MSE.  Afterwards we used GDP growth rate instead of overall GDP and tested using MSE.
 
 ## Data Model Optimization
 
