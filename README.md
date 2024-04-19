@@ -52,3 +52,6 @@ The question we asked in this project was to find if we can use a machine learni
 
 U.S. Bureau of Economic Analysis, “Table 1. GDP and Personal Income,” apps.bea.gov/iTable/?ReqID=62&step=1#eyJhcHBpZCI6NjIsInN0ZXBzIjpbMSwyLDZdLCJkYXRhIjpbWyJQcm9kdWN0IiwiMSJdLFsiVGFibGVMaXN0IiwiMSJdXX0= (accessed April 9, 2024).
 
+Federal Reserve Bank of St. Louis and US Office of Management and Budget, "Treasury Rates," https://fred.stlouisfed.org/docs/api/fred/ (accessed April 9, 2024).
+
+Miller, David S. (2019). "Predicting Future Recessions," FEDS Notes. Washington: Board of Governors of the Federal Reserve System, May 6, 2019, https://doi.org/10.17016/2380-7172.2338.
