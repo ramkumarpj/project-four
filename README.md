@@ -45,6 +45,8 @@ The next Machine Learning Model we used is Support Vector Machines (SVR) from Sc
 
 We then tested Ensemble model learning. This technique combines several base machine learning models in order to produce one optimal predictive model. We imported the previous data and used Linear Regression,  XGBoost, and Random Forest. We split the data into training and training sets, defined and trained the models, and outputted the prediction. We then tested the prediction using MSE.  Afterwards we used GDP growth rate instead of overall GDP and tested using MSE.
 
+We then used the Logistic Regression Model. This took our BEA and Treasuring analysis and added columns to dataframe to use for our 10 year interest rate, 2 year rate, and 1 year rate and the difference between them which is commonly called the 10-2 and 10-1 rate.  This along with the GDP growth rate to see a positive or negative trend.  These added data points show a prediction that a recession is likely if the GDP rate is negative and the interest rate difference for long term is less than vs short term. This gave us the bestt accuracy score at 95%
+
 ## Data Model Optimization
 
 As we analyzed the approach we took to find the best way to predict a recession, we found that using multiple ways to optimize the MLM was to try different approaches after discussing which model would work the best.  We created our code using Python and used multiple machine learning models to see the results. To test the accuracy of the model we used MSE.  Linear regression did give us a suitable result but we had to find different methods to train our model and show that it was working correctly in each dataframe.  SVR would give a similar result that was slightly more accurate according to our test. The team had to find ways work with the code to transform the data to be usable for a Time Series analysis. Using the data from our source, we obtained data points for each month and year. In each analysis, we created visualizations in order to create an easier understanding of our results.
@@ -55,7 +57,7 @@ After researching the Federal Reserve real time data and future predictions, we 
 
 ## Conclusion
 
-The question we asked in this project was to find if we can use a machine learning model to predict a recession with better than 75% accuracy by analyzing historical GDP data. After using multiple models to test the accuracy of this prediction, we concluded that there is indeed a way to use MLM with a high accuracy to predict an future recession.  Our Python notebook labelled Logistic_Regression_Model shows our work in determining this.  The final conclusion we reached is that the logistic regression model for predicting an economic recession based on difference in the interest rates of long term and short term treasuries is able to achieve an accuracy score of 95.38%.
+The question we asked in this project was to find if we can use a machine learning model to predict a recession with better than 75% accuracy by analyzing historical GDP data. After using multiple models to test the accuracy of this prediction, we concluded that there is indeed a way to use MLM with a high accuracy to predict a future recession.  Our Python notebook labelled Logistic_Regression_Model shows our work in determining this.  The final conclusion we reached is that the logistic regression model for predicting an economic recession based on difference in the interest rates of long term and short term treasuries is able to achieve an accuracy score of 95.38%.
 
 ## Sources
 
