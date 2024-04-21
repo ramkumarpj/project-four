@@ -61,7 +61,7 @@ The question we asked in this project was to find if we can use a machine learni
 
 ## Sources
 
-U.S. Bureau of Economic Analysis, “Table 1. GDP and Personal Income,” apps.bea.gov/iTable/?ReqID=62&step=1#eyJhcHBpZCI6NjIsInN0ZXBzIjpbMSwyLDZdLCJkYXRhIjpbWyJQcm9kdWN0IiwiMSJdLFsiVGFibGVMaXN0IiwiMSJdXX0= (accessed April 9, 2024).
+U.S. Bureau of Economic Analysis, “Table 1. GDP and Personal Income,” https://apps.bea.gov/iTable/?ReqID=62&step=1#eyJhcHBpZCI6NjIsInN0ZXBzIjpbMSwyLDZdLCJkYXRhIjpbWyJQcm9kdWN0IiwiMSJdLFsiVGFibGVMaXN0IiwiMSJdXX0= (accessed April 9, 2024).
 
 Federal Reserve Bank of St. Louis and US Office of Management and Budget, "Treasury Rates," https://fred.stlouisfed.org/docs/api/fred/ (accessed April 9, 2024).
 
