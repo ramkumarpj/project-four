@@ -34,6 +34,19 @@
  - LogisticRegression Model created was then fitted using training dataset - X_train and y_train.
   - The model is then used to predict recession of test dataset 'X_test'
 
+## Model Optimizations
+
+The accuracy score was recorded as 95.38% for the original model. The precision and recall for 'Is_Recession' label 'True' was 0.
+
+To improve accuracy, precision, and recall, the following optimizations were done- 
+* An additional feature "Change in Private Inventories' was introduced. 
+* For the train and test split, the test size was adjusted to 20%, and stratify was set to 'y'
+
+Following ML algorithms were tried out but didn't improve the score and hence wasn't considered for this model.
+* K-Nearest Neighbors (KNN) algorithm
+* Decision Tree
+* XGBoost
+   
 ## Results
 
 * Logistic Regression Model :
@@ -45,8 +58,7 @@
 ## Summary
 
 * The optimized version of the Logistic regression model for predicting an economic recession based on differences in the interest rates of long-term and short-term treasuries and changes in private inventories achieved an accuracy score of **98.07%**. 
-* The precision and recall for 'False' label are .98 and 1.00 respectively. The precision and recall for the 'True' label are 1.0 and .50 respectively.
-
+* The precision and recall for ‘Is_Recession’ label ‘False’ are .98 and 1.00 respectively. The precision and recall for the ‘Is_Recession’ label ‘True’ are 1.0 and .50 respectively
 
 
 **Recommends** Logistics Regression Model for predicting an economic recession
