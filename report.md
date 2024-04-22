@@ -44,12 +44,10 @@
 
 ## Summary
 
-* The optimized version of logistic regression model for predicting an economic recession based on difference in the interest rates of  long term and short term treasuries and change in private invetories is able to achieve an accuracy score of **98.07%**. The precision and recall for 'False' label is .98 and 1.00 respecitvely. The precision and recall for 'True' label is 1.0 and .50 respecitvely.
+* The optimized version of the Logistic regression model for predicting an economic recession based on differences in the interest rates of long-term and short-term treasuries and changes in private inventories achieved an accuracy score of **98.07%**. 
+* The precision and recall for 'False' label are .98 and 1.00 respectively. The precision and recall for the 'True' label are 1.0 and .50 respectively.
 
 
-* The precision and recall score for Loan Status '0' are both 1, which means the model was able to correctly predict 'Healty Loan' labels. 
 
-* The precision and recall score for Loan Status '1' are .87 & .89 respectievely so the model was not able to predict 'High-Risk Loan' as accurate as 'healthy loan' but it still has a good success rate.
-
-**Recommends** Logistics Regression Model for predicting credit worthiness of borrowers
+**Recommends** Logistics Regression Model for predicting an economic recession
 
