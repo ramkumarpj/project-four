@@ -59,6 +59,44 @@ After researching the Federal Reserve real time data and future predictions, we 
 
 The question we asked in this project was to find if we can use a machine learning model to predict a recession with better than 75% accuracy by analyzing historical GDP data. After using multiple models to test the accuracy of this prediction, we concluded that there is indeed a way to use MLM with a high accuracy to predict a future recession.  Our Python notebook labelled Logistic_Regression_Model shows our work in determining this.  The final conclusion we reached is that the optimized version of the Logistic regression model for predicting an economic recession based on differences in the interest rates of long-term and short-term treasuries and changes in private inventories can achieve an accuracy score of **98.07%**. The precision and recall for 'False' label are .98 and 1.00 respectively. The precision and recall for the 'True' label are 1.0 and .50 respectively.
 
+## Files
+
+**Project Proposal**
+* ./Data Detectives Project Proposal.pdf
+
+**Resources** 
+* Section1All_xls.xlsx - GDP Data downloaded from U.S. Bureau of Economic Analysis. See sources section for details.
+
+**Images**
+* This folder contains various plots generated during EDA and model development phase.
+
+**Source**
+
+* Jupyter Notebook used for analysing BEA(U.S Bureau of Economic Analysis) GDP Data
+  - source/EDA/BEA_Data_Analysis.ipynb
+ 
+* Jupyter Notebook used for analysing Treasury Interest Date Data
+  - source/EDA/Treasury_Security_Rates_EDA.ipynb
+
+* Jupyter Notebook used for extracting GDP data from BEA which will be used in the Notebook used for model development
+  - source/ML/BEA_Base_For_ML_Model.ipynb
+
+* Jupyter Notebook used for extracting Treasury data from FRED API which will be be used in the Notebook used for model development
+  - source/ML/Treasury_Rates_Base_For_ML.ipynb
+
+* Jupyter Notebook used for final model development based on Logistic Regression ML model
+  - source/ML/Final_Logistic_Regression_Model.ipynb
+
+* Jupyter Notebook used for exploring other ML models
+  - source/ML/Linear_Regression_Model.ipynb
+  - source/ML/SVR_Model.ipynb
+  - Ensemble.ipynb
+
+## Run Instructions
+
+* Open [**Final_Logistic_Regression_Model.ipynb**](./source/ML/Final_Logistic_Regression_Model.ipynb) file using Jupyter Notebook
+  - Click on 'Cell > Run All' to run
+
 ## Sources
 
 U.S. Bureau of Economic Analysis, “Table 1. GDP and Personal Income,” https://apps.bea.gov/iTable/?ReqID=62&step=1#eyJhcHBpZCI6NjIsInN0ZXBzIjpbMSwyLDZdLCJkYXRhIjpbWyJQcm9kdWN0IiwiMSJdLFsiVGFibGVMaXN0IiwiMSJdXX0= (accessed April 9, 2024).
