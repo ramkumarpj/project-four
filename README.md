@@ -55,6 +55,10 @@ As we analyzed the approach we took to find the best way to predict a recession,
 
 After researching the Federal Reserve real time data and future predictions, we came to the conclusion that the Logistic Regression Model to be the most accurate way to determine an upcoming recession.  Our target variable is a future recession within 6-24 months.  The features we included are the difference between the long term and short term interest rate. The data used for this was the 10 year interest rate, and the 10-2 and 10-1 year interest rate.  The classification for the model is the GDP growth rate and seeing if we are positive or negative.
 
+## ML Model Report
+
+Click [here](report.md) for detailed analysis report
+
 ## Conclusion
 
 The question we asked in this project was to find if we can use a machine learning model to predict a recession with better than 75% accuracy by analyzing historical GDP data. After using multiple models to test the accuracy of this prediction, we concluded that there is indeed a way to use MLM with a high accuracy to predict a future recession.  Our Python notebook labelled Logistic_Regression_Model shows our work in determining this.  The final conclusion we reached is that the optimized version of the Logistic regression model for predicting an economic recession based on differences in the interest rates of long-term and short-term treasuries and changes in private inventories can achieve an accuracy score of **98.07%**. The precision and recall for 'False' label are .98 and 1.00 respectively. The precision and recall for the 'True' label are 1.0 and .50 respectively.
