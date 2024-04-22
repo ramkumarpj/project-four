@@ -79,13 +79,13 @@ The question we asked in this project was to find if we can use a machine learni
 * Jupyter Notebook used for analysing BEA(U.S Bureau of Economic Analysis) GDP Data
   - source/EDA/BEA_Data_Analysis.ipynb
  
-* Jupyter Notebook used for analysing Treasury Interest Date Data
+* Jupyter Notebook used for analysing Treasury Interest Rate Data
   - source/EDA/Treasury_Security_Rates_EDA.ipynb
 
-* Jupyter Notebook used for extracting GDP data from BEA which will be used in the Notebook used for model development
+* Jupyter Notebook used for extracting GDP data from BEA which will be used for model development
   - source/ML/BEA_Base_For_ML_Model.ipynb
 
-* Jupyter Notebook used for extracting Treasury data from FRED API which will be be used in the Notebook used for model development
+* Jupyter Notebook used for extracting Treasury data from FRED API which will be be used for model development
   - source/ML/Treasury_Rates_Base_For_ML.ipynb
 
 * Jupyter Notebook used for final model development based on Logistic Regression ML model
