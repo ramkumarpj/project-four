@@ -8,7 +8,7 @@ For Project 4, you will work with your group to solve, analyze, or visualize a p
 
 Team AEJJ is seeking to discover relationships between U.S. Gross Domestic Product (GDP) and overall economic health. Can machine learning predict a recession, with better than 75% accuracy, by analyzing historical GDP data?
 
-![Recessions](https://github.com/ramkumarpj/project-four/blob/4d1253bbeec05d80478eafca75a95e91326b63f2/images/economic_recessions_US_1959.png)
+![Recessions](./images/economic_recessions_US_1959.png)
 
 
 ## Setting up Agile Project
@@ -61,7 +61,7 @@ Click [here](report.md) for detailed analysis report
 
 ## Conclusion
 
-The question we asked in this project was to find if we can use a machine learning model to predict a recession with better than 75% accuracy by analyzing historical GDP data. After using multiple models to test the accuracy of this prediction, we concluded that there is indeed a way to use MLM with a high accuracy to predict a future recession.  Our Python notebook labelled Logistic_Regression_Model shows our work in determining this.  The final conclusion we reached is that the optimized version of the Logistic regression model for predicting an economic recession based on differences in the interest rates of long-term and short-term treasuries and changes in private inventories can achieve an accuracy score of **98.07%**. The precision and recall for 'False' label are .98 and 1.00 respectively. The precision and recall for the 'True' label are 1.0 and .50 respectively.
+The question we asked in this project was to find if we can use a machine learning model to predict a recession with better than 75% accuracy by analyzing historical GDP data. After using multiple models to test the accuracy of this prediction, we concluded that there is indeed a way to use MLM with a high accuracy to predict a future recession.  Our Python notebook labelled Logistic_Regression_Model shows our work in determining this.  The final conclusion we reached is that the optimized version of the Logistic regression model for predicting an economic recession based on differences in the interest rates of long-term and short-term treasuries and changes in private inventories can achieve an accuracy score of **98.07%**.The precision and recall for ‘Is_Recession’ label ‘False’ are .98 and 1.00 respectively. The precision and recall for the ‘Is_Recession’ label ‘True’ are 1.0 and .50 respectively
 
 ## Files
 
