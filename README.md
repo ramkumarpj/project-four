@@ -57,7 +57,7 @@ After researching the Federal Reserve real time data and future predictions, we 
 
 ## Conclusion
 
-The question we asked in this project was to find if we can use a machine learning model to predict a recession with better than 75% accuracy by analyzing historical GDP data. After using multiple models to test the accuracy of this prediction, we concluded that there is indeed a way to use MLM with a high accuracy to predict a future recession.  Our Python notebook labelled Logistic_Regression_Model shows our work in determining this.  The final conclusion we reached is that the logistic regression model for predicting an economic recession based on difference in the interest rates of long term and short term treasuries is able to achieve an accuracy score of 95.38%.
+The question we asked in this project was to find if we can use a machine learning model to predict a recession with better than 75% accuracy by analyzing historical GDP data. After using multiple models to test the accuracy of this prediction, we concluded that there is indeed a way to use MLM with a high accuracy to predict a future recession.  Our Python notebook labelled Logistic_Regression_Model shows our work in determining this.  The final conclusion we reached is that the optimized version of the Logistic regression model for predicting an economic recession based on differences in the interest rates of long-term and short-term treasuries and changes in private inventories can achieve an accuracy score of **98.07%**. The precision and recall for 'False' label are .98 and 1.00 respectively. The precision and recall for the 'True' label are 1.0 and .50 respectively.
 
 ## Sources
 
